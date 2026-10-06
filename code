@@ -1,14 +1,60 @@
-<html>
+<!doctype html>
+<html lang="en">
+  <link rel="stylesheet" href="123.css" />
   <head>
     <title>Amazon.com。讓你花費更少，消費更開心</title>
   </head>
 
   <body style="background-color: black">
-    <a href="">
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7nTDi7kXm4EycVxsAEFPtYLMWJ_rIT7knq-Qd_rIAnKSG6tqGD2m2seUL&s=10"
-        style="height: 30px; width: 60px；"
-    /></a>
-    <a href=""> <p>交貨到香港</p> </a>
+    <header>
+      <div>
+        <a href="">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7nTDi7kXm4EycVxsAEFPtYLMWJ_rIT7knq-Qd_rIAnKSG6tqGD2m2seUL&s=10"
+            style="height: 30px; width: 60px; float: left"
+        /></a>
+      </div>
+      <div style="float: left; margin-left: 20px">
+        <a href="" style="color: white">
+          <div style="float: left">
+            <div class="line-1">交貨到</div>
+            <div class="line-2">香港</div>
+          </div>
+        </a>
+      </div>
+      <div class="search_box">
+        <form style="float: left; margin-left: 20px">
+          <select>
+            <option>全部</option>
+            <option>婴儿</option>
+            <option>青少年</option>
+            <option>成人</option>
+            <option>老人</option>
+          </select>
+        </form>
+
+        <div style="float: left">
+          <input type="text" placeholder="搜尋 Amazon" style="float: none" />
+          <button type="submit" style="float: none; border: none">🔍</button>
+        </div>
+      </div>
+      <div class="head_right">
+        <select style="float: left; margin-left: 20px">
+          <option>ZH</option>
+          <option>EN</option>
+          <option>ES</option>
+          <option>KO</option>
+          <option>AR</option>
+        </select>
+        <a href="" style="float: left; margin-left: 20px">
+          <div class="line-1">你好，登入</div>
+          <div class="line-2">账户与清单</div>
+        </a>
+        <a href="" style="float: left; margin-left: 20px">
+          <div class="line-1">退货</div>
+          <div class="line-2">与订单</div>
+        </a>
+      </div>
+    </header>
   </body>
 </html>
