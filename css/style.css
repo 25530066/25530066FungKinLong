@@ -1,0 +1,339 @@
+* {
+  /*letting the web in  no margin and padding for later can be change more easily*/
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black; /*let the background color of the header in black*/
+}
+
+.line-1 {
+  /*change the word in gray and use the most clean word*/
+  display: block;
+  color: lightgrey;
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 14px;
+}
+
+.line-2 {
+  /*let the word in white and the clean word*/
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 16px;
+}
+
+.search_box {
+  /*setting the search box in the middle of the page and setting the width in 520px*/
+  margin: 0 auto;
+  width: 520px;
+}
+
+.head_right {
+  /*setting the word keep in right*/
+  float: right;
+  width: 520px;
+}
+
+.navbar {
+  /*changing the word color in white and clear the decoration */
+  color: white;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.cardbox {
+  /*setting the background color in white and in the middle of the page */
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card {
+  /*making a card with the rounded angle on their 4 angle*/
+  float: left;
+  width: 260px;
+  height: 400px;
+  margin-left: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.square_box {
+  /*keep in the center and changing the background color in white*/
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.square {
+  /*changing the angle into the rounded angle and keep in the center*/
+  float: left;
+  width: 320px;
+  margin: 13px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 400px;
+  text-align: center;
+}
+
+.smallsquare {
+  float: left;
+  width: 140px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.lowerbox {
+  /*keep in center*/
+  overflow: hidden;
+  text-align: center;
+}
+
+.lowerword {
+  /*let the max width be 200px and the word color in white and keep in middle*/
+  width: 200px;
+  margin-right: 25px;
+  color: white;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.lowerword ul li {
+  /*clear the decoration*/
+  list-style: none;
+  margin: 0 auto;
+}
+
+.lowerword ul li a {
+  /*keep word in white*/
+  float: left;
+  width: 230px;
+  margin-right: 25px;
+  color: white;
+}
+
+.bottom {
+  /*keep in center */
+  margin: 0 auto;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.bottom a {
+  margin: 0 auto;
+  margin-right: 5px;
+  height: 25px;
+}
+
+.columnbox {
+  /*keep in center and the word in white*/
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+
+.column {
+  /* clear the decoration and keep the word in white */
+  width: 125px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.column p {
+  /*let the color of the word in gray and clear the decoration */
+  color: gray;
+  text-decoration: none;
+}
+
+.a {
+  height: 30px;
+  width: 60px;
+  float: left;
+}
+
+.b {
+  height: 30px;
+  width: 60px;
+  float: left;
+}
+
+.c {
+  color: white;
+}
+
+.d {
+  float: left;
+}
+
+.e {
+  float: left;
+  margin-left: 20px;
+}
+
+.f {
+  float: none;
+}
+
+.g {
+  float: right;
+}
+
+.h {
+  float: right;
+  margin-left: 20px;
+}
+
+.i {
+  /*change the background color in deep blue and let the word in middle*/
+  margin-left: 10px;
+  background-color: #021250;
+  margin: 0;
+  height: 30px;
+}
+
+.j {
+  /*changing the background to img*/
+  background-image: url(../img/3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.k {
+  /*changing the background to img*/
+  background-image: url(../img/4.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+.l {
+  /*changing the background to img*/
+  background-image: url(../img/5.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+.m {
+  /*changing the background to img*/
+  background-image: url(../img/6.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+.n {
+  /*changing the background to img*/
+  background-image: url(../img/7.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+.o {
+  /*clear the decoration and change the color in black */
+  text-decoration: none;
+  color: black;
+}
+
+.p {
+  height: 140px;
+  width: 140px;
+  border-radius: 8px;
+}
+
+.q {
+  /*change the color of the text in white*/
+  background-color: white;
+}
+
+.r {
+  /*adding border in 1px and in gray and changing 4angle be rounded angle also keep in middle*/
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.s {
+  /*changing the background color in yellow and changing to rounded angle*/
+  width: 250px;
+  border-radius: 25px;
+  height: 35px;
+  background-color: rgb(255, 221, 0);
+}
+
+.t {
+  /*changing the background color in deep blue and using line height to keep word in y axis middle*/
+  margin-left: 10px;
+  background-color: #021250;
+  margin: 0;
+  line-height: 50px;
+}
+
+.u {
+  /*clear the decoration of the text*/
+  text-decoration: none;
+}
+.v {
+  /*keep words in center and change in white*/
+  text-align: center;
+  color: white;
+}
+
+.w {
+  /*change in deep blue*/
+  background-color: #070222;
+}
+
+.x {
+  margin: 0 auto;
+}
+
+.y {
+  /*change the border color in gray */
+  border-color: gray;
+}
+
+.z {
+  /*let it in middle*/
+  height: 30px;
+  width: 60px;
+  margin-right: 50px;
+  vertical-align: middle;
+}
+
+.aa {
+  height: 25px;
+  width: 80px;
+}
+
+.ab {
+  height: 20px;
+  width: 20px;
+}
+
+.ac {
+  color: white;
+}
+
+.bg {
+  /*changing the background color in black*/
+  background-color: black;
+}
